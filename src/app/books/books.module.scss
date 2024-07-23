@@ -1,0 +1,31 @@
+.booksContainer {
+    width: 100%;
+}
+.bookSectionLeft {
+    display: flex;
+    gap: 2rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+.bookImage {
+    width: 55%;
+}
+.bookContent {
+    width: 45%;
+}
+.bookCovers {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+.cover {
+    height: 100%;
+}
+.bookTitle {
+    text-decoration: none;
+}
+.bookTitle:hover {
+    text-decoration: underline;
+    transition: all 0.3s;
+}

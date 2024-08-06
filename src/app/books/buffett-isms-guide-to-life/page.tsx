@@ -7,14 +7,7 @@ export default function BuffettismsPage() {
         <div className="booksContainer">
             <div className="bookSectionLeft">
                 <div className="bookImage">
-                    <Image 
-                        src="/images/buffett-isms-cover-front.png" 
-                        alt="Buffett-isms front of book cover" 
-                        width={0} 
-                        height={0} 
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }}
-                    />
+                    <img src="/images/buffett-isms-cover-front.png" alt="Buffett-isms front of book cover" width="100%;"/>
                 </div>
                 <div className="bookContent">
                     <h1>Buffett-isms! The ABC Guide to Life</h1>

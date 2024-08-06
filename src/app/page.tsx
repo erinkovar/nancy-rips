@@ -1,4 +1,3 @@
-import Image from "next/image";
 import styles from "./page.module.css";
 import React from "react";
 import Link from "next/link";
@@ -8,56 +7,19 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles.bookSection}>
         <h1>BRAND NEW! </h1>
-        <Image 
-          src="/images/buffett-isms-cover-front.png" 
-          alt="Buffett-isms front of book cover" 
-          width={0} 
-          height={0} 
-          sizes="100vw"
-          style={{ width: '75%', height: 'auto' }}
-        />
-        <Image 
-          src="/images/buffett-isms-cover-back.png" 
-          alt="Buffett-isms back of book cover" 
-          width={0} 
-          height={0} 
-          sizes="100vw"
-          className={styles.frontpageImageLast}
-          style={{ width: '75%', height: 'auto' }}
-        />
+        <img src="/images/buffett-isms-cover-front.png" alt="Buffett-isms front of book cover" width="75%"/>
+        <img src="/images/buffett-isms-cover-back.png" alt="Buffett-isms back of book cover" className={styles.frontpageImageLast} width="75%"/>
         <p className={styles.bookDescription}>Pre-order at <Link href="mailto:info@bookwormomaha.com">info@bookwormomaha.com</Link></p>
       </div>
       <div className={styles.bookSection}>
         <h4><Link href="/books/new-berkshire-abc">My New Berkshire ABC</Link></h4>
-        <Image 
-          src="/images/cover-new_berkshire_abc-front.jpg" 
-          alt="My New Berkshire ABC front of book cover" 
-          width={0} 
-          height={0} 
-          sizes="100vw"
-          style={{ width: '75%', height: 'auto' }}
-        />
-        <Image 
-          src="/images/cover-new_berkshire_abc-back.jpg" 
-          alt="My New Berkshire ABC back of book cover" 
-          width={0} 
-          height={0} 
-          sizes="100vw"
-          className={styles.frontpageImageLast}
-          style={{ width: '75%', height: 'auto' }}
-        />
+        <img src="/images/cover-new_berkshire_abc-front.jpg" alt="My New Berkshire ABC front of book cover" width="75%"/>
+        <img src="/images/cover-new_berkshire_abc-back.jpg" alt="My New Berkshire ABC back of book cover" className={styles.frontpageImageLast} width="75%"/>
         <p className={styles.bookDescription}>Now available <Link href="http://www.bookwormomaha.com">www.bookwormomaha.com</Link>  or <Link href="tel:4023922877">402-392-2877</Link></p>
       </div>
       <div className={styles.bookSectionLeft}>
         <div className={styles.bookImage}>
-          <Image 
-            src="/images/cover_seder.jpeg" 
-            alt="Seder Stories front of book cover" 
-            width={0} 
-            height={0} 
-            sizes="100vw"
-            style={{ width: '100%', height: 'auto' }}
-          />
+        <img src="/images/cover_seder.jpeg" alt="Seder Stories front of book cover" width="100%"/>
         </div>
         <div className={styles.bookContent}>
           <h4><Link href="/books/seder-stories">Seder Stories</Link></h4>
@@ -69,14 +31,7 @@ export default function Home() {
       </div>
       <div className={styles.bookSectionRight}>
         <div className={styles.bookImage}>
-          <Image 
-            src="/images/cover_highholidaystories.gif" 
-            alt="High Holiday Stories front of book cover" 
-            width={0} 
-            height={0} 
-            sizes="100vw"
-            style={{ width: '100%', height: 'auto' }}
-          />
+          <img src="/images/cover_highholidaystories.gif" alt="High Holiday Stories front of book cover" width="100%"/>
         </div>
         <div className={styles.bookContent}>
           <h4><Link href="/books/high-holiday-stories">High Holiday Stories</Link></h4>
@@ -88,14 +43,7 @@ export default function Home() {
       </div>
       <div className={styles.bookSectionLeft}>
         <div className={styles.bookImage}>
-          <Image 
-            src="/images/cover_hanukkahstories.gif" 
-            alt="Hanukkah Stories front of book cover" 
-            width={0} 
-            height={0} 
-            sizes="100vw"
-            style={{ width: '100%', height: 'auto' }}
-          />
+          <img src="/images/cover_hanukkahstories.gif" alt="Hanukkah Stories front of book cover" width="100%"/>
         </div>
         <div className={styles.bookContent}>
           <h4><Link href="/books/hanukkah-stories">Hanukkah Stories</Link></h4>
@@ -107,14 +55,7 @@ export default function Home() {
       </div>
       <div className={styles.bookSectionRight}>
         <div className={styles.bookImage}>
-          <Image 
-            src="/images/cover_myfirstberkshire.png" 
-            alt="My First Berkshire ABC front of book cover" 
-            width={0} 
-            height={0} 
-            sizes="100vw"
-            style={{ width: '100%', height: 'auto' }}
-          />
+          <img src="/images/cover_myfirstberkshire.png" alt="My First Berkshire ABC front of book cover" width="100%"/>
         </div>
         <div className={styles.bookContent}>
           <h4><Link href="/books/first-berkshire-abc">My First Berkshire ABC</Link></h4>
@@ -124,14 +65,7 @@ export default function Home() {
       </div>
       <div className={styles.bookSectionLeft}>
         <div className={styles.bookImage}>
-          <Image 
-            src="/images/cover_noah.jpg" 
-            alt="Noah and the Eight Trucks of Hannukah front of book cover" 
-            width={0} 
-            height={0} 
-            sizes="100vw"
-            style={{ width: '100%', height: 'auto' }}
-          />
+          <img src="/images/cover_noah.jpg" alt="Noah and the Eight Trucks of Hannukah front of book cover" width="100%"/>
         </div>
         <div className={styles.bookContent}>
           <h4><Link href="/books/noah-eight-trucks-of-hanukkah">Noah and the Eight Trucks of Hanukkah</Link></h4>

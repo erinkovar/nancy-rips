@@ -161,3 +161,131 @@ footer {
 	background-color: #121212;
   text-align: center;
 }
+.mobileNav {
+  display: none;
+
+  .nav {
+    display: none;
+  }
+}
+@media all and (max-width:980px) {
+  .container {
+    padding: 30px;
+  }
+  .header {
+    height: 110px;
+  }
+}
+@media all and (max-width:855px) {
+  .sidebar {
+    min-width: 0;
+    max-width: none;
+    width: 30%
+  }
+  .main {
+    width: 70%;
+  }
+}
+@media all and (max-width:759px) {
+  .container {
+    padding: 30px;
+    flex-direction: column-reverse;
+  }
+  .sidebar {
+    width: 100%;
+    display: flex;
+    gap: 2rem;
+
+    img {
+      width: 50% !important;
+    }
+  }
+  .appearances .container {
+    flex-direction: column;
+  }
+  .main {
+    width: 100%;
+  }
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: end;
+    padding: 0 20px 0 0;
+    
+    img {
+      width: 100% !important;
+    }
+  }
+  .nav {
+    display: none;
+  }
+  .logo {
+    width: 200px;
+  }
+  .mobileNav {
+    display: block;
+    text-align: center;
+    height: 24px;
+    padding-bottom: 65px;
+    padding-right: 0;
+
+    &.open {
+      background-color: #121212;
+      padding: 30px 0 0 0;
+      z-index: 1000;
+      position: absolute;
+      top: 0;
+      right: 0;
+
+      .icon {
+        background-color: #121212;
+      }
+      .icon:hover {
+        cursor: pointer;
+      }
+    }
+    .nav {
+      display: flex;
+      flex-direction: column;
+      z-index: 1000;
+      background-color: #121212;
+      padding: 30px;
+      .nav-item {
+        margin: 0;
+      }
+    }
+    .closeIcon {
+      background-color: #121212;
+      cursor: pointer;
+    }
+  }
+}
+@media all and (max-width:626px) {
+  .header {
+    height: auto;
+
+    .logo {
+      margin: 20px 0 20px 20px;
+    }
+  }
+}
+@media all and (max-width:511px) {
+  .appearances .container {
+    .oneThird, .twoThirds {
+      width: 100%;
+    }
+  }
+}
+@media all and (max-width:501px) {
+  .header {
+    background-position: top center;
+  }
+  .sidebar {
+    flex-direction: column;
+    padding: 0;
+
+    img {
+      width: 100% !important;
+    }
+  }
+}

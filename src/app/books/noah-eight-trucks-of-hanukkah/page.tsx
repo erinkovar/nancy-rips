@@ -7,14 +7,7 @@ export default function NoahPage() {
         <div className="booksContainer">
             <div className="bookSectionLeft">
                 <div className={styles.bookImage}>
-                    <Image 
-                        src="/images/cover_noah.jpg" 
-                        alt="Noah and the Eight Trucks of Hannukah front of book cover" 
-                        width={0} 
-                        height={0} 
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }}
-                    />
+                    <img src="/images/cover_noah.jpg" alt="Noah and the Eight Trucks of Hannukah front of book cover" width="100%;"/>
                 </div>
                 <div className="bookContent">
                     <h1>Noah and the Eight Trucks of Hannukah</h1>

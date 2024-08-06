@@ -7,14 +7,7 @@ export default function NewBerkshirePage() {
         <div className="booksContainer">
             <div className="bookSectionLeft">
                 <div className="bookImage">
-                    <Image 
-                        src="/images/cover-new_berkshire_abc-front.jpg" 
-                        alt="My New Berkshire ABC front of book cover" 
-                        width={0} 
-                        height={0} 
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }}
-                    />
+                    <img src="/images/cover-new_berkshire_abc-front.jpg" alt="My New Berkshire ABC front of book cover" width="100%;"/>
                 </div>
                 <div className="bookContent">
                     <h1>My New Berkshire ABC</h1>

@@ -29,3 +29,21 @@
     text-decoration: underline;
     transition: all 0.3s;
 }
+@media all and (max-width:512px) {
+    .bookSectionLeft {
+        flex-direction: column;
+    }
+    .bookImage {
+        width: 100%;
+    }
+    .bookContent {
+        width: 100%;
+    }
+    .bookCovers img {
+        height: auto !important;
+        width: 100% !important;
+    }
+    .cover {
+        margin-top: 20px;
+    }
+}

@@ -24,22 +24,9 @@ export default function AboutPage() {
             <p className="bookReviewsAuthor">—Faye Moskowitz</p>
 
             <div className={styles.imageContainer}>
-                <Image 
-                    src="/images/ABA.gif" 
-                    alt="American Bookseller Association logo" 
-                    width={0} 
-                    height={0} 
-                    sizes="100vw"
-                    style={{ width: 'auto', height: '120px' }}
-                />
-                <Image 
-                    src="/images/bookselling.gif" 
-                    alt="American Bookseller Association" 
-                    width={0} 
-                    height={0} 
-                    sizes="100vw"
-                    style={{ width: '60%', height: 'auto' }}
-                />
+                <img src="/images/ABA.gif" alt="American Bookseller Association logo"/>
+                <img src="/images/bookselling.gif" alt="American Bookseller Association" />
+                
             </div>
             <p className="paddingTop">Warren Buffett may be the Oracle of Omaha, but Nancy Rips is Omaha’s very own Book Maven. Over the past few decades, Rips has discovered and developed unique ways to bring books to people and people to books.</p>
 

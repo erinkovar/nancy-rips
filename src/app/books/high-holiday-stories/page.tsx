@@ -6,14 +6,7 @@ export default function HighHolidayPage() {
         <div className="booksContainer">
             <div className="bookSectionLeft">
                 <div className="bookImage">
-                    <Image 
-                        src="/images/cover_highholidaystories.gif" 
-                        alt="High Holiday Stories front of book cover" 
-                        width={0} 
-                        height={0} 
-                        sizes="100vw"
-                        style={{ width: '100%', height: 'auto' }}
-                    />
+                    <img src="/images/cover_highholidaystories.gif" alt="High Holiday Stories front of book cover" width="100%;"/>
                 </div>
                 <div className="bookContent">
                     <h1>High Holiday Stories</h1>

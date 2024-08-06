@@ -153,7 +153,21 @@
     transform: none;
   }
 }
+@media all and (max-width:759px) {
+  .bookSection img {
+    width: 100% !important;
+  }
+  .bookSectionLeft, .bookSectionRight {
+    flex-direction: column;
+  }
 
+  .bookImage {
+    width: 100%;
+  }
+  .bookContent {
+    width: 100%;
+  }
+}
 /* Mobile */
 @media (max-width: 700px) {
   .content {

@@ -8,15 +8,7 @@ export default function SederPage() {
         <div className="booksContainer">
             <div className="bookSectionLeft">
                 <div className="bookImage">
-                    <Image 
-                        src="/images/cover_seder.jpeg" 
-                        alt="Seder Stories front of book cover"  
-                        width={0} 
-                        height={0} 
-                        sizes="100vw"
-                        className="bookHover"
-                        style={{ width: '100%', height: 'auto' }}
-                    />
+                    <img src="/images/cover_seder.jpeg" alt="Seder Stories front of book cover" width="100%;"/>
                 </div>
                 <div className="bookContent">
                     <h1>Seder Stories</h1>
